@@ -26,3 +26,6 @@ def test_smokeTestLogin(page:Page):
     expect(page.locator("#password")).to_be_visible()
     expect(page).to_have_url("https://eventhub.rahulshettyacademy.com/login")
     expect(page.get_by_text("Sign in to EventHub")).to_be_visible()
+
+
+#Test result screenshot uploaded on Github
